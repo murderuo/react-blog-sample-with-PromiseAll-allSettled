@@ -1,0 +1,59 @@
+@import url('../src/assets/css/bootstrap.css');
+@import url('../src/assets/fonts/stylesheet.css');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* :root {
+  --bs-font-sans-serif: 'Lora Regular', 'Lora SemiBold';
+} */
+
+.fb {
+  /* height: 100vh; */
+  /* height: 100%; */
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.images img {
+  height: 20vh;
+  /* width: 100%;
+  object-fit: cover;*/
+  padding: 2px;
+}
+
+.fs-2x {
+  font-size: 2rem;
+}
+
+.fs-lora {
+  font-family: 'Lora Regular';
+}
+.fs-lora-bold {
+  font-family: 'Lora SemiBold';
+}
+
+.fs-title {
+  margin-top: 10px;
+  font-family: 'Lora SemiBold';
+}
+.post-body {
+  margin-top: 30px;
+  font-family: 'Lora Regular';
+}
+
+.post-body::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.publisher-small img {
+  max-width: 30px;
+  max-height: 30px;
+}
